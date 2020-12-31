@@ -24,6 +24,10 @@ export interface SQLiteDatabaseConfig {
    */
   iosDatabaseLocation?: string;
   /**
+   * Android sqlite provider. Use 'system' for consistent behavior.
+   */
+  androidDatabaseProvider?: string;
+  /**
    * support opening pre-filled databases with https://github.com/litehelpers/cordova-sqlite-ext
    */
   createFromLocation?: number;
